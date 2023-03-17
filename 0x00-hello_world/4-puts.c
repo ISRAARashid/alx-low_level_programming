@@ -3,11 +3,10 @@
 
 
 /**
- * main - printf "Programming is like building a multilingual puzzle, followed by  a newline."
- *
- * Return 0.
+ * main - printf "Programming is like building a multilingual
+ * puzzle, followed by  a newline."
+ * Return: always 0  (Success)
  */
-
 
 int main(void)
 
