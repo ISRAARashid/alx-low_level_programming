@@ -3,8 +3,11 @@
 /* more headers goes there */
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
-/* THis Function is for Getting the Last digit Check */
+/**
+ * main  -      print a random num
+ *
+ * Return: 0.
+ */
 int main(void)
 {
 	int n;
