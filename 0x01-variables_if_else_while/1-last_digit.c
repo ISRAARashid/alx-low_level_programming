@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
+#include <stdio.h>
 
 /* betty style doc for function main goes there */
 /* THis Function is for Getting the Last digit Check */
