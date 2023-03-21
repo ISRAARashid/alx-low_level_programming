@@ -1,39 +1,34 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main  -     print the alphabits.
- * Return: 0.
+ * main -	 Prints all possible combinations of two two-digit numbers,
+ *ranging from 0-99, separated by a comma followed by a space.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	int i;
-	int x;
-	int k;
+	int num1, num2;
 
-	for (i = '0'; i <= '9'; i++)
+	for (num1 = 0; num1 <= 98; num1++)
 	{
-		for (x = '0'; x <= '9'; x++)
+		for (num2 = num1 + 1; num2 <= 99; num2++)
 		{
-			for (k = '0'; k <= '9'; k++)
-			{
-				if ((i < x) && (x < k))
-				{
-					putchar(i);
-					putchar(x);
-					putchar(k);
-					if ((i == '7') && (x == '8') && (k == '9'))
-					{}
-					else
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-			}
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
+
+			if (num1 == 98 && num2 == 99)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
 	}
+
 	putchar('\n');
+
 	return (0);
-}
+}}
