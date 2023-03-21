@@ -1,1 +1,1 @@
-containing a description of the project
+containing a description of the repo
