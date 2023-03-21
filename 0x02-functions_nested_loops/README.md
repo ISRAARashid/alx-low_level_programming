@@ -1,1 +1,1 @@
-explain the project
+explain what is project is.
