@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main -	 check the code
- *
- * Return: Always 0.
+ * print_triangle - print a triangle of squares according paranetes
+ *@size: the size of squares triangles
+ * Return: empty
  */
 int main(void)
 
