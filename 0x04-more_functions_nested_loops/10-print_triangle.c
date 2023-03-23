@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Not print-triangle - print a triangle of squares according paraneter
+ * print-triangle - Not print a triangle of squares according paraneter
  * @size: the size of squares triangle
  * Return: empty
  */
