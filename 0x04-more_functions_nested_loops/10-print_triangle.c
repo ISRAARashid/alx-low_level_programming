@@ -1,10 +1,9 @@
-#include "main.h"
 /**
- * print-triangle - Not print a triangle of squares according paraneter
- * @size: the size of squares triangle
- * Return: empty
+ * main -	 check the code
+ *
+ * Return: Always 0.
  */
-void print_triangle(int size)
+int main(void)
 
 {
 	int x, y, z;
